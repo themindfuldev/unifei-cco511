@@ -1,0 +1,3 @@
+public enum Operacoes {
+	NENHUMA, SOMA, SUBTRACAO, MULTIPLICACAO, DIVISAO;
+}

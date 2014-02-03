@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="ExtractMethodWizard">
+		<item value="false" key="ThrowRuntimeExceptions"/>
+		<item value="false" key="GenerateJavadoc"/>
+	</section>
+	<section name="RefactoringWizard.preview">
+		<item value="400" key="height"/>
+		<item value="600" key="width"/>
+	</section>
+	<section name="org.eclipse.ltk.ui.refactoring.settings">
+		<item value="false" key="updateQualifiedNames"/>
+		<item value="" key="patterns"/>
+		<item value="true" key="renameGetter"/>
+		<item value="true" key="renameSetter"/>
+		<item value="false" key="updateTextualMatches"/>
+	</section>
+	<section name="UseSupertypeWizard">
+		<item value="false" key="rewriteInstanceOf"/>
+	</section>
+</section>

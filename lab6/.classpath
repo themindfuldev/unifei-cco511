@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Arquivos de programas/FirebirdSQL-1.5.0RC2JDK_1.4/firebirdjmx.jar"/>
+	<classpathentry kind="lib" path="C:/Arquivos de programas/FirebirdSQL-1.5.0RC2JDK_1.4/firebirdsql.jar"/>
+	<classpathentry kind="lib" path="C:/Arquivos de programas/FirebirdSQL-1.5.0RC2JDK_1.4/firebirdsql-full.jar"/>
+	<classpathentry kind="lib" path="C:/Arquivos de programas/FirebirdSQL-1.5.0RC2JDK_1.4/firebirdsql-pool.jar"/>
+	<classpathentry kind="lib" path="C:/Arquivos de programas/FirebirdSQL-1.5.0RC2JDK_1.4/firebirdsql-test.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

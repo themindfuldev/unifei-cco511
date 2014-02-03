@@ -1,0 +1,48 @@
+/*
+ * ControleGerenciamentoDeMateriais.java
+ *
+ * Created on 20 de Novembro de 2006, 16:51
+ *
+ * To change this template, choose Tools | Template Manager
+ * and open the template in the editor.
+ */
+
+package controle;
+
+import util.*;
+import org.hibernate.*;
+import java.util.*;
+
+/**
+ *
+ * @author Tiago
+ */
+public class ControleGerenciamentoDeMateriais
+{
+   
+   /** Creates a new instance of ControleGerenciamentoDeMateriais */
+   public ControleGerenciamentoDeMateriais()
+   {
+      
+   }
+   
+   public List consultaMateriais(String consultaNome)
+   {
+      Session session = HibernateUtil.currentSession();
+      Transaction tx = session.beginTransaction();
+      //session.save(newHibernateBean);
+      
+      List result;
+      if (consultaNome == null)
+         result = session.createQuery("from Material").list();
+      else
+         result = session.createQuery("from Material as mat where mat.nome='" + 
+            consultaNome + "'").list();
+      
+      tx.commit();
+      HibernateUtil.closeSession();
+      
+      return result;
+   }
+   
+}
